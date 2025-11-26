@@ -1,0 +1,103 @@
+C:\Users\Edoxi\Desktop\Node>cd frontendbackendconnection
+
+C:\Users\Edoxi\Desktop\Node\frontendbackendconnection>mkdir frontend
+
+C:\Users\Edoxi\Desktop\Node\frontendbackendconnection>mkdir backend 
+
+C:\Users\Edoxi\Desktop\Node\frontendbackendconnection>cd frontend
+
+C:\Users\Edoxi\Desktop\Node\frontendbackendconnection\frontend> npm create vite@latest my-react-app
+Need to install the following packages:
+create-vite@8.2.0
+Ok to proceed? (y) y
+
+
+> npx
+> create-vite my-react-app
+
+│
+◇  Select a framework:
+│  React
+│
+◇  Select a variant:
+│  JavaScript
+│
+◇  Use rolldown-vite (Experimental)?:
+│  No
+│
+◇  Install with npm and start now?
+│  Yes
+│
+◇  Scaffolding project in C:\Users\Edoxi\Desktop\Node\frontendbackendconnection\frontend\my-react-app...
+│
+◇  Installing dependencies with npm...
+
+added 157 packages, and audited 158 packages in 37s
+
+33 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+│
+◇  Starting dev server...
+
+> my-react-app@0.0.0 dev
+> vite
+
+
+  VITE v7.2.4  ready in 654 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help
+Terminate batch job (Y/N)? N
+
+C:\Users\Edoxi\Desktop\Node\frontendbackendconnection\frontend>cd my-react-app
+
+C:\Users\Edoxi\Desktop\Node\frontendbackendconnection\frontend\my-react-app> npm install 
+
+up to date, audited 158 packages in 1s
+
+33 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\Users\Edoxi\Desktop\Node\frontendbackendconnection\frontend\my-react-app>npm run dev
+
+> my-react-app@0.0.0 dev
+> vite
+
+
+  VITE v7.2.4  ready in 285 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help
+Terminate batch job (Y/N)? y
+
+C:\Users\Edoxi\Desktop\Node\frontendbackendconnection\frontend\my-react-app>cd ..
+
+C:\Users\Edoxi\Desktop\Node\frontendbackendconnection\frontend>cd ..
+
+C:\Users\Edoxi\Desktop\Node\frontendbackendconnection>cd backend
+
+C:\Users\Edoxi\Desktop\Node\frontendbackendconnection\backend>npm init -y
+Wrote to C:\Users\Edoxi\Desktop\Node\frontendbackendconnection\backend\package.json:
+
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
+
+
+
